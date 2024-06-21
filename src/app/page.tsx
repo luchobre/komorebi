@@ -2,7 +2,7 @@ import NavbarCo from './components/Navbar/NavbarCo'
 import Banner from './components/Banner/Banner'
 import About from './components/About/About'
 import Botanicos from './components/Botanicos/Botanicos'
-import Contact from './components/Contact/Contact'
+import Whatsapp from './components/Whatsapp/Whatsapp'
 import Footer from './components/Footer/Footer'
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
       <Banner />
       <About />
       <Botanicos />
-      <Contact />
+      <Whatsapp />
       <Footer />
     </main>
   );

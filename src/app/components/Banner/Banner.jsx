@@ -12,6 +12,9 @@ const Banner = () => {
       img:'/images/banner1.jpg',
     },
     {
+      img:'/images/banner2.jpg',
+    },
+    {
       img:'/images/banner3.jpg',
     },
     {
@@ -42,7 +45,7 @@ const Banner = () => {
       <SwiperSlide key={index}>
       <Image
               src={item.img}
-              className="rounded-lg object-cover"
+              className="object-cover"
               alt={index}
               width={1200}
               height={600}

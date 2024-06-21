@@ -1,0 +1,13 @@
+.whatsappButton {
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    z-index: 50;
+  }
+  
+  .whatsappButton:hover {
+    background-color: rgba(0, 255, 0, 0.2); /* Cambia el color de fondo al pasar el mouse sobre el ícono */
+    border-radius: 50%; /* Para hacer el fondo redondo */
+    transition: background-color 0.3s ease; /* Agrega una transición suave */
+  }
+  

@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex justify-center mt-5 mb-5" id="about">
+    <div className="flex justify-center mb-5" id="about">
       <div className="flex flex-col items-center justify-center text-center">
           <h2 className="text-3xl text-amber-950 mt-16 mb-16">DESCUBRÍ NUESTRO GIN ELABORADO CON LOS MEJORES BOTÁNICOS</h2>
         <div className="flex xl:flex-row flex-col w-[80%] items-center">
