@@ -8,18 +8,18 @@ import Image from 'next/image';
 
 const Banner = () => {
   const images = [
+    // {
+    //   img:'/images/banner.png',
+    // },
     {
-      img:'/images/banner.png',
+      img:'/images/banner1.png',
     },
-    // {
-    //   img:'/images/banner1.jpg',
-    // },
-    // {
-    //   img:'/images/banner2.jpg',
-    // },
-    // {
-    //   img:'/images/banner3.jpg',
-    // },
+    {
+      img:'/images/banner2.png',
+    },
+    {
+      img:'/images/banner3.png',
+    },
     // {
     //   img:'/images/banner4.jpg',
     // }
