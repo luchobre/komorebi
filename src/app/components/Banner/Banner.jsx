@@ -19,10 +19,7 @@ const Banner = () => {
     },
     {
       img:'/images/banner4.jpg',
-    },
-    {
-      img:'/images/banner5.jpg',
-    },
+    }
   ]
 
 
