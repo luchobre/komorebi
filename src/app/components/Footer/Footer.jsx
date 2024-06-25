@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
       <div className="flex flex-col gap-6 items-center justify-center h-full pb-10">
         <span className="flex"><IoMdPin />Moreno, Buenos Aires, Argentina</span>
-        <span className="flex"><FaMobileScreen /> (+549) 11 12 34 56 78</span>
+        <span className="flex"><FaMobileScreen /> (+549) 11-4436-5097</span>
         <span className="flex"><MdEmail />komorebi.gin@gmail.com</span>
       </div>
       <div className="flex flex-col items-center pb-6">
