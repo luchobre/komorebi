@@ -9,17 +9,20 @@ import Image from 'next/image';
 const Banner = () => {
   const images = [
     {
-      img:'/images/banner1.jpg',
+      img:'/images/banner.png',
     },
-    {
-      img:'/images/banner2.jpg',
-    },
-    {
-      img:'/images/banner3.jpg',
-    },
-    {
-      img:'/images/banner4.jpg',
-    }
+    // {
+    //   img:'/images/banner1.jpg',
+    // },
+    // {
+    //   img:'/images/banner2.jpg',
+    // },
+    // {
+    //   img:'/images/banner3.jpg',
+    // },
+    // {
+    //   img:'/images/banner4.jpg',
+    // }
   ]
 
 
@@ -42,10 +45,10 @@ const Banner = () => {
       <SwiperSlide key={index}>
       <Image
               src={item.img}
-              className="object-cover"
+              className=" object-fill"
               alt={index}
-              width={1200}
-              height={600}
+              width={1400}
+              height={1000}
             />
       </SwiperSlide>
         ))
